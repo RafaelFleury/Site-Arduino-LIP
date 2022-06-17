@@ -1,6 +1,7 @@
 @import url(./footer.css);
 @import url(./header.css);
 @import url(./pages-css/home-index.css);
+@import url(./pages-css/interesting-links.css);
 
 * {
     margin: 0;
