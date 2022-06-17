@@ -1,0 +1,18 @@
+#IA-div {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 400px;
+}
+
+#IA-div iframe {
+    min-width: 550px;
+    min-height: 500px;
+}
+
+#IA-div_box {
+    display: flex;
+    justify-content: end;
+}
