@@ -1,0 +1,6 @@
+Arquivo txt com as URLs (projeto no site codesandbox.io e site final) do site de auxílio ao aprendizado de programação do Arduino, utilizando o Arduino UNO físico e o Tinkercad.
+
+Codesandbox: <url aqui>
+
+Site final: <url aqui>
+
