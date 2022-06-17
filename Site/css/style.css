@@ -1,11 +1,11 @@
 @import url(./footer.css);
 @import url(./header.css);
-@import url(./home-index.css);
+@import url(./pages-css/home-index.css);
 
 * {
     margin: 0;
     padding: 0;
-    color: var(--text-color);
+    color: var(--text-color-v1);
 }
 
 body {
@@ -18,12 +18,13 @@ body {
 } */
 
 :root {
-    /* Variable and Specific Colors */
-    --background-color: var(--black); /* Applies to every background of the site */
-    --text-color: var(--white); /* Applies to every kind of text, considering the background as a "opposite color" */
-    --border-color: var(--cyan); /* Applies to every kind of border */
+    /* Variáveis e cores específicas */
+    --background-color: var(--black); /* Se aplica a todos os backgrounds do site */
+    --text-color-v1: var(--white); /* Se aplica a todos os tipos de texto. "v1" significa "versão 1" */
+    --text-color-v2: var(--cyan); /* Se aplica a todos os tipos de texto assim como o "v1", mas é uma versão alternativa */
+    --border-color: var(--cyan); /* Se aplica a todas as bordas */
 
-    /* Const Colors */
+    /* Cores constantes */
     --white: #fff;
     --black: #000;
     --cyan: #00ffff;
