@@ -1,0 +1,30 @@
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./home-index.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+body {
+    font-family: 'Netflix Sans', sans-serif;
+    background-color: #111;
+}
+
+/* body::-webkit-scrollbar, body::-webkit-scrollbar-thumb {
+    display: none;
+} */
+
+:root {
+    /* Variable and Specific Colors */
+    --background-color: var(--black); /* Applies to every background of the site */
+    --text-color: var(--white); /* Applies to every kind of text, considering the background as a "opposite color" */
+    --border-color: var(--cyan); /* Applies to every kind of border */
+
+    /* Const Colors */
+    --white: #fff;
+    --black: #000;
+    --cyan: #00ffff;
+}

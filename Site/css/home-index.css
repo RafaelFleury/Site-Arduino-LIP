@@ -1,0 +1,10 @@
+#main_div {
+    margin: 20px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 420px) {
+    #main_div {
+        margin: 10px;
+    }
+}

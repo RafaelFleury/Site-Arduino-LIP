@@ -1,0 +1,14 @@
+#header {
+    display: flex;
+    justify-content: center;
+    color: cyan;
+    height: auto;
+    border-bottom: var(--border-color) solid 1px;
+    margin-bottom: 10px;
+    background-color: var(--background-color);
+}
+
+#header_title {
+    padding: 10px;
+    color: var(--text-color);
+}
