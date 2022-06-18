@@ -1,0 +1,17 @@
+#about_div {
+    border: solid var(--border-color) 1px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#about_div-title {
+    padding: 0 0 15px 0;
+}
+
+#about_div-participants {
+    list-style: none;
+}
+
+.about_div-member {
+    padding: 5px 0;
+}

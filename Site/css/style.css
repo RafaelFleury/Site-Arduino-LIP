@@ -3,6 +3,7 @@
 @import url(./pages-css/home-index.css);
 @import url(./pages-css/interesting-links.css);
 @import url(./pages-css/tests.css);
+@import url(./pages-css/about.css);
 
 * {
     margin: 0;
