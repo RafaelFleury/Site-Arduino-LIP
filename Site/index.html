@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Website de auxílio ao aprendizado de programação do Arduino - Produto 9 - LIP"
+    />
+    <meta
+      name="keywords"
+      content="html, arduino, web, css, lip, trabalho, scratch, leopardjs, tinkercad, metaverso"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Website de auxílio ao aprendizado de programação do Arduino - Produto 9 - LIP">
-    <meta name="keywords" content="html, arduino, web, css, lip, trabalho, scratch, leopardjs, tinkercad, metaverso">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="/Site/css/style.css">
-    <script src="/Site/js/script.js" defer></script>
-
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leopard@^1/dist/index.min.css"
+    />
     <title>Learning Arduino</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="header">
-        <div id="header_L1"> <!-- L1 e L2 são as "linhas" do header -->
-            <h1 id="header_title"><a href="/Site/index.html">Learning Arduino</a></h1>
-        </div>
-        <div id="header_L2">
-            <h2><a href="/Site/html/about.html">About Us</a></h2>
-            <h2><a href="/Site/html/interesting-links.html">Arduino Links</a></h2> <!-- Os links interessantes são atualmente do Produto 3 do Rafael. Seria muito bom substituir depois.-->
-            <h2><a href="/Site/html/tests.html">Tests</a></h2>
-        </div>
+      <div id="header_L1">
+        <!-- L1 e L2 são as "linhas" do header -->
+        <h1 id="header_title">
+          <a href="/index.html">Learning Arduino</a>
+        </h1>
+      </div>
+      <div id="header_L2">
+        <h2><a href="/html/about.html">About Us</a></h2>
+        <h2><a href="/html/interesting-links.html">Arduino Links</a></h2>
+        <!-- Os links interessantes são atualmente do Produto 3 do Rafael. Seria muito bom substituir depois.-->
+        <h2><a href="/html/tests.html">Tutorial</a></h2>
+      </div>
     </header>
 
     <main id="main">
-        <div id="main_div"> <!-- Basicamente a divisão primária da main que contém tudo dela -->
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus cupiditate, quidem at accusantium molestias rem deserunt quas error laborum voluptas laudantium sunt quod commodi corrupti odio alias, architecto eum quisquam delectus illum. Deserunt ea laudantium eveniet voluptates ab perspiciatis quaerat a quasi, odit debitis rerum nostrum architecto reprehenderit illo cupiditate voluptatibus amet ullam fugit veniam reiciendis quia sint. Deserunt quos fugit magnam molestiae nisi, expedita sequi adipisci dolorum fuga quod assumenda exercitationem hic voluptate? Minima voluptas id ab aspernatur molestiae iusto modi maiores, soluta assumenda eveniet, voluptatum aliquid laborum ipsam nesciunt, qui optio voluptate porro praesentium repudiandae! Exercitationem, doloribus.
-        </div>
+      <button id="greenFlag">Green Flag</button>
+      <div id="project"></div>
+
+      <script type="module">
+        import project from "./index.js";
+
+        project.attach("#project");
+
+        document.querySelector("#greenFlag").addEventListener("click", () => {
+          project.greenFlag();
+        });
+
+        // Autoplay
+        project.greenFlag();
+      </script>
     </main>
 
     <footer id="footer">
-        <span>&copy; Copyright PUC Minas - LIP</span>
+      <span>&copy; Copyright PUC Minas - LIP</span>
     </footer>
-</body>
-
+  </body>
 </html>
