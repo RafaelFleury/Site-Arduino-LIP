@@ -1,48 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Website de auxílio ao aprendizado de programação do Arduino - Produto 9 - LIP"
+    />
+    <meta
+      name="keywords"
+      content="html, arduino, web, css, lip, trabalho, scratch, leopardjs, tinkercad, metaverso"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Website de auxílio ao aprendizado de programação do Arduino - Produto 9 - LIP">
-    <meta name="keywords" content="html, arduino, web, css, lip, trabalho, scratch, leopardjs, tinkercad, metaverso">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="/Site/css/style.css">
-    <script src="/Site/js/script.js" defer></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js" defer></script>
 
     <title>Learning Arduino</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="header">
-        <div id="header_L1"> <!-- L1 e L2 são as "linhas" do header -->
-            <h1 id="header_title"><a href="/Site/index.html">Learning Arduino</a></h1>
-        </div>
-        <div id="header_L2">
-            <h2><a href="/Site/html/about.html">About Us</a></h2>
-            <h2><a href="/Site/html/interesting-links.html">Arduino Links</a></h2> <!-- Os links interessantes são atualmente do Produto 3 do Rafael. Seria muito bom substituir depois.-->
-            <h2><a href="/Site/html/tests.html">Tests</a></h2>
-        </div>
+      <div id="header_L1">
+        <!-- L1 e L2 são as "linhas" do header -->
+        <h1 id="header_title">
+          <a href="/index.html">Learning Arduino</a>
+        </h1>
+      </div>
+      <div id="header_L2">
+        <h2><a href="/html/about.html">About Us</a></h2>
+        <h2><a href="/html/interesting-links.html">Arduino Links</a></h2>
+        <!-- Os links interessantes são atualmente do Produto 3 do Rafael. Seria muito bom substituir depois.-->
+        <h2><a href="/html/tests.html">Tutorial</a></h2>
+      </div>
     </header>
 
     <main id="main">
-        <div id="main_div"> <!-- Basicamente a divisão primária da main que contém tudo dela -->
-            <div id="about_div">
-                <h2 id="about_div-title">Participantes do Projeto</h2>
-                <ul id="about_div-participants">
-                    <li class="about_div-member">Carolina Nigri</li>
-                    <li class="about_div-member">Felipe Campolina</li>
-                    <li class="about_div-member">Gabriela Colen</li>
-                    <li class="about_div-member">Rafael Fleury</li>
-                </ul>
-            </div>
+      <div id="main_div">
+        <!-- Basicamente a divisão primária da main que contém tudo dela -->
+        <div id="about_div">
+          <h2 id="about_div-title">Sobre o Projeto</h2>
+          <p class="about-div-project">
+            Esse site foi criado por alunos do primeiro período da Ciência da
+            Computação da PUC Minas Coração Eucarístico, na matéria Laboratório
+            de Iniciação à Programação. O objetivo dessa aplicação é auxiliar o
+            aprendizado de Arduino, utilizando inicialmente o Tinkercad, uma
+            plataforma online de simulação de projetos, e posteriormente o
+            Arduino UNO físico.
+          </p>
+          <p class="about-div-project">
+            Com nosso site, você pode conhecer um pouco mais sobre Arduino com
+            vídeos, documentos e sites interessantes que separamos. Além disso,
+            você pode aprender com alguns projetos e tutoriais de Tinkercad e
+            Arduino que selecionamos.
+          </p>
         </div>
+        <br />
+        <div id="about_div">
+          <h2 id="about_div-title">Participantes do Projeto</h2>
+          <ul id="about_div-participants">
+            <li class="about_div-member">Carolina Morais Nigri</li>
+            <li class="about_div-member">Felipe Campolina Soares de Paula</li>
+            <li class="about_div-member">Gabriela Colen Castelo Borges</li>
+            <li class="about_div-member">
+              Rafael Fleury Barcellos Ceolin de Oliveira
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
 
     <footer id="footer">
-        <span>&copy; Copyright PUC Minas - LIP</span>
+      <span>&copy; Copyright PUC Minas - LIP</span>
     </footer>
-</body>
-
+  </body>
 </html>
