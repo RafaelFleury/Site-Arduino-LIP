@@ -1,6 +1,5 @@
 Arquivo txt com as URLs (projeto no site codesandbox.io e site final) do site de auxílio ao aprendizado de programação do Arduino, utilizando o Arduino UNO físico e o Tinkercad.
 
-Codesandbox: <url aqui>
+Codesandbox: https://codesandbox.io/s/learning-arduino-k45jip
 
-Site final: <url aqui>
-
+Site final: https://k45jip.csb.app/
