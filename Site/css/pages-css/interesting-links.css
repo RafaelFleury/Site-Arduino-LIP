@@ -1,22 +1,24 @@
 #main {
-    margin: 30px;
+  margin: 30px;
 }
 
 .arduino-links {
-    padding: 20px;
+  padding: 20px;
 }
 
 .arduino-links h2 {
-    margin: 10px;
+  margin: 10px;
+  color: var(--text-color-v2);
 }
 
 .arduino-link {
-    border: 2px var(--border-color) solid;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 25px 0;
+  border: 2px var(--border-color) solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 25px 0;
+  background-color: var(--background-color);
 }
 
 .arduino-link h3 {
-    margin: 10px 0;
+  margin: 10px 0;
 }

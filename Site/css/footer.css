@@ -1,4 +1,10 @@
 #footer {
-    border-top: var(--border-color) 1px solid;
-    padding: 20px;
+  border-top: var(--border-color) 1px solid;
+  padding: 20px;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+#footer span {
+  color: var(--text-color-v1);
 }

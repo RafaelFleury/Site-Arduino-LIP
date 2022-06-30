@@ -32,13 +32,13 @@ body {
 :root {
   /* Variáveis e cores específicas */
   --background-color: var(
-    --black
+    --blue
   ); /* Se aplica a todos os backgrounds do site */
   --text-color-v1: var(
     --white
   ); /* Se aplica a todos os tipos de texto. "v1" significa "versão 1" */
   --text-color-v2: var(
-    --cyan
+    --white
   ); /* Se aplica a todos os tipos de texto assim como o "v1", mas é uma versão alternativa */
   --border-color: var(--cyan); /* Se aplica a todas as bordas */
 
@@ -46,4 +46,5 @@ body {
   --white: #fff;
   --black: #000;
   --cyan: #00ffff;
+  --blue: #078280eb;
 }

@@ -1,10 +1,24 @@
 #main_div {
-    margin: 20px;
-    text-align: justify;
+  margin: 20px;
+  text-align: justify;
+}
+
+img#placa_arduino,
+img#logo_tinkercad {
+  width: 50%;
+  margin-bottom: 20px;
+}
+div#info_arduino,
+div#info_tinkercad {
+  width: 50%;
+  border: solid var(--border-color) 1px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: var(--background-color);
 }
 
 @media screen and (max-width: 420px) {
-    #main_div {
-        margin: 10px;
-    }
+  #main_div {
+    margin: 10px;
+  }
 }

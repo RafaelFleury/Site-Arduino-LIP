@@ -19,6 +19,7 @@
       rel="stylesheet"
       href="https://unpkg.com/leopard@^1/dist/index.min.css"
     />
+
     <title>Learning Arduino</title>
   </head>
 
@@ -40,7 +41,52 @@
 
     <main id="main">
       <button id="greenFlag">Green Flag</button>
-      <div id="project"></div>
+
+      <div id="info_home">
+        <div id="projeto-demostracao">
+          <div id="project"></div>
+
+          <iframe
+            width="725"
+            height="453"
+            src="https://www.tinkercad.com/embed/iOd7DQXTba4?editbtn=1"
+            frameborder="0"
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+          ></iframe>  
+        </div>
+        <br />
+        <div id="info_arduino">
+          <img
+            id="placa_arduino"
+            src="imgs/arduino_virtual.png"
+            alt="Placa do Arduino Uno"
+          />  
+          <p>
+            Arduino é uma plataforma eletrônica <i>open-source</i> baseada em
+            <i>hardware</i> e <i>software</i> fáceis de usar. Destina-se a
+            qualquer pessoa que faça projetos interativos. As possibilidades de
+            projetos com Arduino são diversas, com criatividade e conhecimento
+            você pode criar projetos incríveis e divertidos!
+          </p>  
+        </div>  
+        <br />
+        <div id="info_tinkercad">
+          <img
+            id="logo_tinkercad"
+            src="imgs/logo-tinkercad.png"
+            alt="Logo do Tinkercad"
+          />  
+          <p>
+            Tinkercad é um aplicativo Web gratuito para prjetos 3D, eletrônica e
+            codificação. É uma ferramenta muito interessante para começar o
+            aprendizado de Arduino por permitir simular circuitos virtualmente e
+            programar com blocos. Assim, você pode testar seus projetos antes de
+            reproduzi-los na vida real!
+          </p>  
+        </div>  
+      </div>  
 
       <script type="module">
         import project from "./index.js";
