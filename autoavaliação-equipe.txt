@@ -1,1 +1,1 @@
-Arquivo para ser escrita a auto avaliação do grupo na entrega do trabalho.
+Concluímos todos os requisitos pedidos, construindo um site interessante e funcional que atraia pessoas a conhecer e aprender sobre Arduino. Acreditamos ter feito um bom trabalho, logo a equipe merece 30 pontos, a nota máxima.  
